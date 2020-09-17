@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="logo/Shop games reaper.png" rel="shortcut icon" />
+        <title>Login_Register</title>
+        <link href="login_register.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>  
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-google"></i>
+                <i class="fa fa-apple"></i>
+            </div>
+            <form id="login" class="input">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <input style="margin: 30px 10px 30px 0" class="check-box" type="checkbox"><span>Nhớ mật khẩu</span>
+                <button type="submit">Log In</button>
+            </form>
+            <form id="register" class="input">
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input style="margin: 30px 10px 30px 0" class="check-box" type="checkbox"><span>Đồng ý các <span class="terms">điều khoản</span> thỏa thuận</span>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("btn");
+
+            function register() {
+                x.style.left = "-450px";
+                y.style.left = "50px";
+                z.style.left = "110px";
+            }
+
+            function login() {
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0";
+            }
+        </script>
+        
+    </body>
+
+</html>

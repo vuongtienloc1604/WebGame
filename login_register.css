@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(banner/background4.png);
+    background-position: center;
+    background-size: cover; /*co ảnh vừa với phần tử chứa*/
+    width: 100%;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    border-radius: 24px;
+    position: relative;
+    margin: 10% auto;
+    background-color: white;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #d4501c1f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    border-radius: 30px;
+    background: linear-gradient(to right ,#ff105f, #ffad06);
+    transition: .5s;
+}
+
+div.social-icons{
+    text-align: center;
+}
+
+div.social-icons > i{
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+div.social-icons > i:hover{
+    color: crimson;
+}
+
+.input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+input[type=email]{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+button[type=submit]{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to right ,#ff105f, #ffad06);
+    border-radius: 30px;
+}
+
+span{
+    color: #777;
+    font-size: 14px;
+    bottom: 63px;   
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
+.terms{
+    color: red;
+    position: initial; 
+}
+
+.terms:hover{
+    cursor: pointer;
+}

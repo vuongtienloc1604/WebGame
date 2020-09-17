@@ -1,0 +1,534 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS FOOTER */
+.footer-area{
+    background: #192027;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer a{
+    color: royalblue;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+.col50{
+    width: 50%;
+}
+
+p.info-text{
+    font-size: 19px;
+    color: wheat;
+}
+
+div.content{
+    overflow: auto;
+}
+
+div.content > div{
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.info-contact > li > span > a{
+    text-decoration: none;
+}
+
+div.icon-social > a{
+    color: rgba(52, 77, 105, 0.808);
+}
+
+div.icon-social > a > span.facebook:hover{
+    color: #4169e1;
+}
+
+div.icon-social > a > span.twitch:hover{
+    color: #8a2be2;
+}
+
+div.icon-social > a > span.pinterest:hover{
+    color: rgb(156, 30, 30);
+}
+
+div.icon-social > a > span.steam:hover{
+    color: #1137a7;
+}
+
+div.icon-social > a > span.google-plus:hover{
+    color: #ff6347;
+}
+
+div.icon-social > a > span.instagram:hover{
+    color: #87cefa;
+}
+
+ul.info-contact > li > span > a:hover{
+    color: red;
+}
+
+table.message{
+    width: 85%;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 5px;
+}
+textarea{
+    width: 100%;
+    padding: 5px;
+    height: 50px;
+}
+
+input[type=submit]{
+    background-color: orange;
+    color:white;
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+table.message tr:last-child {
+    text-align: center;
+}
+
+span.info{
+    color: burlywood;
+}
+
+p#intro{
+    font-size: 24px;
+    color: burlywood;
+}
+
+/* CSS BODY */
+body{
+    margin: 5px;
+    padding: 0;
+    background-color: #171e22 ;
+}
+/* CSS HEADER */
+header {
+    background-size: cover;
+    background-position: center;
+    width: auto;
+}
+
+/*Contacts*/
+div.container {
+    overflow: auto;
+    width: 100%;
+}
+div.contacts-left {
+    float: left;
+    width: 20%;
+}
+div.contacts-left > ul.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+div.contacts-left > ul.social-links > li {
+    min-width: auto;
+    text-align: center;
+}
+div.contacts-left > ul.social-links > li > a {
+    text-decoration: none;
+    color: rgb(104, 97, 97);
+    border-radius: 100%;
+    display: block;
+    padding: 10px 10px;
+}
+ul.social-links {
+    display: flex;
+}
+.social-links > li > a.social-rss:hover {
+    color: #fff;
+    background-color: #2aac55;
+}
+.social-links > li > a.social-twitch:hover {
+    color: #fff;
+    background-color: #5c43a1;
+}
+.social-links > li > a.social-steam:hover {
+    color: #fff;
+    background-color: #074052;
+}
+.social-links > li > a.social-facebook:hover {
+    color: #fff;
+    background-color: #1877f2;
+}
+.social-links > li > a.social-google-plus:hover {
+    color: #fff;
+    background-color: #df4a32;
+}
+.social-links > li > a.social-twitter:hover {
+    color: #fff;
+    background-color: #00b6f1;
+}
+.social-links > li > a.social-pinterest:hover {
+    color: #fff;
+    background-color: #cb2027;
+}
+
+div.contacts-right {
+    width: 15%;
+    margin-left: 85%;
+}
+.account > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+    border-radius: 5px;
+}
+.sign-up > a:hover {
+    color: #077732;
+    text-decoration: none;
+}
+.sign-in > a:hover {
+    color: #cb2027;
+    text-decoration: none;
+}
+
+/*CSS MENU*/
+nav.menu-bar {
+    margin-bottom: 20px;
+    position: relative;
+    background: linear-gradient(rgba(53, 53, 61, 0.5),rgba(53, 53, 61, 0.5));
+    width: 100%;
+}
+nav.menu-bar:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+nav.menu-bar .logo {
+    float: left;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-left: 40px;
+    font-family: fantasy;
+}
+.fa-gamepad {
+    color: tomato;
+    margin-right: 10px;
+}
+nav.menu-bar ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav.menu-bar ul li {
+    
+    display: inline-block;
+    margin: 0 5px;
+}
+nav.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+nav.menu-bar ul li a:hover {
+    color: cyan;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #66ffff;
+}
+
+nav.menu-bar ul ul.menu-mega {
+    background: linear-gradient(rgba(53, 53, 61, 0.5),rgba(53, 53, 61, 0.5));
+    position: absolute;
+    margin-right: 0;
+    margin-left: -380px;
+    width: 800px;
+    border-top: 3px solid cyan;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+}
+nav.menu-bar ul li:hover > ul.menu-mega {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+nav.menu-bar ul ul ul.menu-mega-in {
+    padding: 0px;
+    float: left;
+    text-transform: uppercase;
+}
+nav.menu-bar ul ul ul.menu-mega-in li {
+    display: block;
+    height: 50px;
+}
+nav.menu-bar ul ul ul.menu-mega-in li a {
+    font-size: 20px;
+}
+/*CSS Node*/
+.see,.icon,input.button-menu {
+    font-weight: 600;
+    font-size: 18px;
+    display: none;
+}
+
+
+.name{
+    font-size: 35px;
+}
+
+div img{
+    width: 95% ;
+}
+
+.h4{
+    margin-bottom: 24px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.left{
+    float: left;
+    width: 15%;
+}
+
+.right{
+    float: right;
+    width: 35%;
+}   
+
+h3{
+    font-size: 30px;
+    color: #fff;
+}
+
+.content-game{
+    color: grey;
+}
+
+.content-game > p > strong{
+    color: lightslategrey;
+}
+
+div.hover > a{
+    color: rgb(21, 7, 214);
+    text-decoration: none;
+}
+
+div.hover > a:hover{
+    color: red;
+}
+
+h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h5{
+    font-size:20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.left2{
+    margin-left: 10px;
+    background-color: rgb(133, 79, 79);
+    float: left;
+    width: 56%;
+    
+}
+
+.right2{
+    float: right;
+    width: 44%;
+}
+
+button{
+    width: 35px;
+    height: 35px;
+}
+
+button:hover{
+    color: white;
+    background-color: #dc143c;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=text]{
+    padding: 6px;
+    margin-bottom: 34px;
+    outline: none;
+}
+
+div.nami > h1{
+    padding: 5px 25px;
+}
+/* CSS AUTHOR */
+.author{
+    color: lightsteelblue;
+}
+
+/* CSS DIFFERENT GAMES */
+.different-games > p{
+    text-align: center;
+    font-size: 27px;
+    padding: 30px;
+    animation: doimau 1s infinite;
+    border-radius: 25px;
+    background: linear-gradient(lightslategray, lightsteelblue);
+}
+
+@keyframes doimau{
+    from{
+        color: lightyellow;
+    }
+    to{
+        color: lightsteelblue;
+    }
+}
+
+div.game > a > img{
+    width: 90%;
+    padding-left: 19px;
+}
+
+div.info-game > a{
+    text-decoration: none;
+    color: black;
+}
+
+div.info-game > a > image:hover{
+    width: 100%;
+}
+
+div.info-game > a > h3:hover{
+    color: red;
+}
+
+.info-game > hr{
+    width: 95%;
+}
+
+div.info-game > a > h3{
+    font-size: 14px;
+    margin: 0;
+}
+
+div.info-game{
+    text-align: center;
+}
+
+/*CSS CONTACT US*/
+.contact-us > p{
+    margin: 26px;
+    padding: 44px;
+    font-size: 28px;
+    text-align: center;
+    background: linear-gradient(lightsteelblue, lightslategray);
+    animation: doimau2 1s infinite;
+    margin-bottom: 0;
+}
+
+@keyframes doimau2{
+    from{
+        color: lightyellow;
+    }
+    to{
+        color: lightsteelblue;
+    }
+}
+
+/*CSS TABLE*/
+div.table{
+    text-align: center;
+    margin-right: 0;
+
+}
+
+div.table > table.contact-icon > tbody > tr > td{
+    padding: 30px;
+}
+
+div.table > table.contact-icon > tbody > tr > td#twitch:hover{
+    background-color: #8a2be2 !important;
+    cursor: pointer;
+    color: white;
+}
+
+div.table > table.contact-icon > tbody > tr > td#instagram:hover{
+    background-color:#87cefa !important;
+    cursor: pointer;
+    color: white;
+}
+
+div.table > table.contact-icon > tbody > tr > td#facebook:hover{
+    background-color: #4169e1 !important;
+    cursor: pointer;
+    color: white;
+}
+
+div.table > table.contact-icon > tbody > tr > td#google-plus:hover{
+    background-color:#ff6347 !important;
+    cursor: pointer;
+    color: white;
+}
+
+div.table > table.contact-icon > tbody > tr > td#youtube:hover{
+    background-color: rgb(129, 11, 11) !important;
+    cursor: pointer;
+    color: white;
+}
+
+div.table > table.contact-icon > tbody > tr > td#twitter:hover{
+    background-color: #197092 !important;
+    cursor: pointer;
+    color: white;
+}
+
+div.table > table.contact-icon > tbody > tr > td#pinterest:hover{
+    background-color: rgb(156, 30, 30) !important;
+    cursor: pointer;
+    color: white;
+}
+
+div.table > table.contact-icon > tbody > tr > td#rss:hover{
+    background-color: orangered !important;
+    cursor: pointer;
+    color: white;
+}
+
+/* CSS GO TOP - MY BUTTON */
+#myBtn{
+    position: fixed;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: #0674ec;
+    color: #fff;
+    border-radius: 50%;
+    right: 3%;
+    bottom: 20px;
+    outline: none;
+    display: none;
+}
+
+#myBtn:hover{
+    color: white;
+    background-color: rgb(177, 14, 109);
+}
